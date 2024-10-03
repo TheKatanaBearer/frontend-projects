@@ -1,0 +1,41 @@
+h1 {
+  color: white;
+}
+
+tr {
+  color: red;
+  box-sizing: 5;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+  height: 100px;
+}
+
+#saqib {
+  color: aqua;
+}
+
+.saqib {
+  color: rosybrown;
+}
+
+td,
+th {
+  color: black;
+  padding: 50px;
+  background-color: brown;
+  border: 5px solid yellow;
+  border-radius: 10px;
+}
+
+table {
+  margin: 40px;
+
+  height: auto;
+
+  color: white;
+}

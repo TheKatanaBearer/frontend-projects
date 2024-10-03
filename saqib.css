@@ -1,0 +1,90 @@
+  #container {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    
+  }
+
+  p {
+    margin: 5px;
+  }
+
+  #text_items {
+    display: flex;
+    gap: 10px;
+
+  }
+
+  #windows-control {
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    margin-left: auto;
+
+    margin-right: 10px;
+   
+    height: 30px;
+    background-color:transparent;
+
+  }
+
+  #windows-control button{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 20px;
+    width: 20px;
+  }
+
+  button#minimize-button{
+    color: blue;
+  }
+
+  button#close-button{
+    color: red;
+  }
+
+  input[type="search"]{
+    width: 300px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+
+
+  html,body{
+    height: 100%;
+    margin: 0;
+  }
+  #aleena{
+    width:50px ;
+    height: auto;
+  }
+
+  .hamza{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    background-color: #f8f8f8;
+    border-right: lightgrey solid 1px;
+    width: 35px;
+    padding: 6px 4px;
+  }
+  .hamza > div {
+    gap: 3px;
+  }
+  .hamza img{
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+}

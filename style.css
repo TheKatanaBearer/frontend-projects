@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+table {
+  color: white;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: rgb(38, 38, 38);
+  width: 80%;
+  margin: 0 auto;
+}
+
+th,
+td {
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#saqib {
+  color: salmon;
+}
+.saqib {
+  color: royalblue;
+}
