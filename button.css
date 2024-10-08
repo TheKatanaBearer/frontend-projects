@@ -1,0 +1,16 @@
+.button-box {
+  width: 100%;
+}
+.mybutton {
+  border-radius: 25%;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  color-scheme: blue;
+}
+
+.internal-button {
+  padding-left: 55px;
+}
